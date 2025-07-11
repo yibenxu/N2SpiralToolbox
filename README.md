@@ -31,7 +31,7 @@ Sigma (11-15Hz) band EEG signal time series in N2 epochs.<br />
 Sigma (11-15Hz) band EEG signal time series in spindle epochs.<br />
 Sigma (11-15Hz) band EEG signal time series in spindle epochs, interpolated across a 20*21 grid.<br />
 Phase velocity field calculated from the sigma (11-15Hz) band EEG time series in spindle epochs.<br />
-Spiral centre locations & distribution map calculated from the phase velocity field.<br />
+N2 spiral centre locations & distribution maps calculated from the phase velocity field in spindle epochs.<br />
 Spiral short-term (overnight) and long-term (3-month) consistencies and their correlations with age and memory retention.<br />
 
 
