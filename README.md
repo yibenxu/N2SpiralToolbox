@@ -2,7 +2,7 @@
 MATLAB toolbox to automatically detect and analyse spiral wave patterns in sleep EEG data, developed by Prof. Pulin Gong's group at University of Sydney.
 ## Instructions for use
 System dependencies: N/A <br />
-Software version: MATLAB 2016b and above (has been tested on MATLAB 2016b and 2020a) <br />
+Software version: MATLAB 2020a and above (has been tested on MATLAB 2020a) <br />
 Hardware requirement: N/A
 
 Data format: Sleep EEG data (256-channel HdEEG) in .fdt and .set formats (EEGLAB) <br />
