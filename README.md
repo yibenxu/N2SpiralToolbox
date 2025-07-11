@@ -40,6 +40,7 @@ Spiral short-term (overnight) and long-term (3-month) consistencies and their co
 ## Authors
 
 * **Yiben Xu** - yixu4976@uni.sydney.edu.au
+* **Alex McInnes** - amci2773@uni.sydney.edu.au
 * **Pulin Gong** - pulin.gong@sydney.edu.au
   
 ## Cite
