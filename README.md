@@ -9,10 +9,9 @@ Data format: Sleep EEG data (256-channel HdEEG) in .fdt and .set formats (EEGLAB
 Data tested: 9 patients with obstructive sleep apnea (OSA), recorded during stage 2 NREM (N2) sleep <br />
 
 ### Launch: <br />
-The high-density EEG source data used in this study are not publicly available but can be accessed upon request. 
-Download the HdEEG data and save to the main folder.
-Download EEGLAB2024 (https://sccn.ucsd.edu/eeglab/).
-Run 'HdEEG_Processing_main_GitHub.m' in matlab. 
+Download the HdEEG data (not publicly available but can be accessed upon request) and save to the main folder. <br />
+Download EEGLAB2024 (https://sccn.ucsd.edu/eeglab/). <br />
+Run 'HdEEG_Processing_main_GitHub.m' in matlab. <br />
 
 ### Main function: 
 
