@@ -10,9 +10,8 @@ Data tested: 9 patients with obstructive sleep apnea (OSA), recorded during stag
 
 ### Launch: <br />
 The high-density EEG source data used in this study are not publicly available but can be accessed upon request. 
-
-Please download EEGLAB2024 (https://sccn.ucsd.edu/eeglab/) before launch.
-
+Download the HdEEG data and save to the main folder.
+Download EEGLAB2024 (https://sccn.ucsd.edu/eeglab/).
 Run 'HdEEG_Processing_main_GitHub.m' in matlab. 
 
 ### Main function: 
