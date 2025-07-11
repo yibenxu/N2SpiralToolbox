@@ -1,7 +1,7 @@
 % This script contains the entire pipeline from N2 spiral detection to spiral-based analysis
-% Before launch, please create the folders required under the main folder
+% Before launch, please download the HdEEG data (accessible by request) and save to the main folder
 
-%% first isolate N2 epoch data
+%% isolate N2 epoch data
 
 main_folder = pwd; % define the main_folder for the toolbox 
 cd ([main_folder,'/eeglab2024.0'])
@@ -113,10 +113,10 @@ channel_locations_2d_rotate = channel_locations_2d_rotate_valid_rescale_adj;
 % 2D channel map from EEGLAB **************************
 
     if baseline_or_treatment == 1
-        foldername = ['/import/taiji1/yixu4976/HD_EEG/PRJ-HdEEG_OSA_CPAP/UWM/N2 data clean/Baseline/'];
+        foldername = [main_folder,'/PRJ-HdEEG_OSA_CPAP/UWM/N2 data clean/Baseline/'];
         filename = ['Channel_Location_2D_EEGLAB_20x21_',subject,'_baseline.mat'];
     elseif baseline_or_treatment == 2
-        foldername = ['/import/taiji1/yixu4976/HD_EEG/PRJ-HdEEG_OSA_CPAP/UWM/N2 data clean/Treatment/'];
+        foldername = [main_folder,'/PRJ-HdEEG_OSA_CPAP/UWM/N2 data clean/Treatment/'];
         filename = ['Channel_Location_2D_EEGLAB_20x21_',subject,'_treatment.mat'];
     end
     
@@ -401,10 +401,10 @@ for sub_id = 1:9
     end
     % save spindle epochs via N2 bandpass filtered data
     if baseline_or_treatment == 1
-    foldername = ['/import/silo3/yixu4976/HD EEG/PRJ-HdEEG_OSA_CPAP/UWM/N2 data clean/Baseline/'];
+    foldername = [main_folder,'/PRJ-HdEEG_OSA_CPAP/UWM/N2 data clean/Baseline/'];
     filename = ['N2_epoch_data_bandpass11To15Hz_SpindleDetectedMolle2011_',subject,'_baseline.mat'];
     elseif baseline_or_treatment == 2
-    foldername = ['/import/silo3/yixu4976/HD EEG/PRJ-HdEEG_OSA_CPAP/UWM/N2 data clean/Treatment/'];
+    foldername = [main_folder,'/PRJ-HdEEG_OSA_CPAP/UWM/N2 data clean/Treatment/'];
     filename = ['N2_epoch_data_bandpass11To15Hz_SpindleDetectedMolle2011_',subject,'_treatment.mat'];
     end
     save([foldername,filename],'spindle_template_epochs','channel_locations','bad_channel','x_arousal','channel_csc_montage','-v7.3');
