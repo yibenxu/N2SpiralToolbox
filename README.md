@@ -40,7 +40,7 @@ Spiral short-term (overnight) and long-term (3-month) consistencies and their co
 ## Authors
 
 * **Yiben Xu** - yixu4976@uni.sydney.edu.au
-* **Alex McInnes** - alexmcinnes97@gmail.com
-* **Chien-Hui Kao** - tancy.kao@woolcock.org.au
-* **Angela D'Rozario** - angela.drozario@mq.edu.au
 * **Pulin Gong** - pulin.gong@sydney.edu.au
+  
+## Cite
+Xu, Y., McInnes, A., Kao, CH. et al. Spatiotemporal dynamics of sleep spindles form spiral waves that predict overnight memory consolidation and age-related memory decline. Commun Biol 8, 1014 (2025). https://doi.org/10.1038/s42003-025-08447-4
