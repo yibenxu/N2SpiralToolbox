@@ -1,5 +1,7 @@
+% This script contains the entire pipeline from N2 spiral detection to spiral-based analysis
+% Please create all folders required beforehand
 
-%% isolate N2 epoch data
+%% first isolate N2 epoch data
 
 main_folder = pwd; % define the main_folder for the toolbox 
 cd ([main_folder,'/eeglab2024.0'])
