@@ -5,7 +5,7 @@ System dependencies: N/A <br />
 Software version: MATLAB 2020a and above (has been tested on MATLAB 2020a) <br />
 Hardware requirement: N/A
 
-Data format: Sleep EEG data (256-channel HdEEG) in .fdt and .set formats (EEGLAB) <br />
+Data format: 256-channel HdEEG data in .fdt and .set formats (EEGLAB) <br />
 Data tested: 9 patients with obstructive sleep apnea (OSA), recorded during stage 2 NREM (N2) sleep <br />
 
 ### Launch: <br />
