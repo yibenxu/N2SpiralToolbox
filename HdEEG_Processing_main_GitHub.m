@@ -1,5 +1,5 @@
 % This script contains the entire pipeline from N2 spiral detection to spiral-based analysis
-% Please create all folders required beforehand
+% Before launch, please create the folders required under the main folder
 
 %% first isolate N2 epoch data
 
