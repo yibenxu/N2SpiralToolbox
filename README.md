@@ -35,3 +35,12 @@ Sigma (11-15Hz) band EEG signal time series in spindle epochs, interpolated acro
 Phase velocity field calculated from the sigma (11-15Hz) band EEG time series in spindle epochs.<br />
 Spiral centre locations & distribution map calculated from the phase velocity field.<br />
 Spiral short-term (overnight) and long-term (3-month) consistencies and their correlations with age and memory retention.<br />
+
+
+## Authors
+
+* **Yiben Xu** - yixu4976@uni.sydney.edu.au
+* **Alex McInnes** - alexmcinnes97@gmail.com
+* **Chien-Hui Kao** - tancy.kao@woolcock.org.au
+* **Angela D'Rozario** - angela.drozario@mq.edu.au
+* **Pulin Gong** - pulin.gong@sydney.edu.au
